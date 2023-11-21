@@ -1,6 +1,4 @@
-package com.system.design.timed_task_scheduler;
-
-import com.system.design.timed_task_scheduler.DelayedTask;
+package com.system.design.schedule_timed_task;
 
 import java.util.Random;
 import java.util.UUID;
@@ -8,8 +6,8 @@ import java.util.concurrent.DelayQueue;
 
 public class TaskProducer implements Runnable {
 
+    private final DelayQueue<DelayedTask> queue;
     private final Random random = new Random();
-    private DelayQueue<DelayedTask> queue;
 
     public TaskProducer(DelayQueue<DelayedTask> queue) {
         this.queue = queue;
@@ -19,18 +17,15 @@ public class TaskProducer implements Runnable {
     public void run() {
         while (true) {
             try {
-                produceRandomTasks();
+                int delay = random.nextInt(10000);
+                String uuid = UUID.randomUUID().toString();
+                DelayedTask task = new DelayedTask("task name", uuid, delay);
+                queue.put(task);
                 Thread.sleep(3000);
+                break;
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-    }
-
-    private void produceRandomTasks() {
-        int delay = random.nextInt(10000);
-        String randomName = UUID.randomUUID().toString();
-        DelayedTask task = new DelayedTask(randomName, delay);
-        queue.put(task);
     }
 }

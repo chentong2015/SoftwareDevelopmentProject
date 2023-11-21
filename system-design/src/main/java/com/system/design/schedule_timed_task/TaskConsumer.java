@@ -1,10 +1,10 @@
-package com.system.design.timed_task_scheduler;
+package com.system.design.schedule_timed_task;
 
 import java.util.concurrent.DelayQueue;
 
 public class TaskConsumer implements Runnable {
 
-    private DelayQueue<DelayedTask> queue;
+    private final DelayQueue<DelayedTask> queue;
 
     public TaskConsumer(DelayQueue<DelayedTask> queue) {
         this.queue = queue;
@@ -17,7 +17,10 @@ public class TaskConsumer implements Runnable {
         while (true) {
             try {
                 DelayedTask task = queue.take();
-                System.out.println("Take " + task);
+                System.out.println("Get task: " + task);
+                if (task.getName().equals("end task")) {
+                    break;
+                }
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

@@ -1,4 +1,4 @@
-package com.system.design.timed_task_scheduler;
+package com.system.design.schedule_timed_task;
 
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
@@ -7,10 +7,12 @@ import java.util.concurrent.TimeUnit;
 public class DelayedTask implements Delayed {
 
     private String name;
+    private String uuid;
     private long startTime; // milliseconds
 
-    public DelayedTask(String name, long delay) {
+    public DelayedTask(String name, String uuid, long delay) {
         this.name = name;
+        this.uuid = uuid;
         this.startTime = System.currentTimeMillis() + delay;
     }
 
@@ -24,6 +26,10 @@ public class DelayedTask implements Delayed {
     public int compareTo(Delayed o) {
         DelayedTask task = (DelayedTask) o;
         return (int) (this.startTime - task.startTime);
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
