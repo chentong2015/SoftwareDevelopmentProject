@@ -1,0 +1,17 @@
+Pooling池化技术解决了什么问题：
+由于资源或者服务的获取以及关闭会带来一定的性能问题，
+通过池化技术可以“缓存”资源或者服务以便更加高效的使用
+
+Pooling池化技术应用场景：
+1. 数据库连接池Connection Pool: "连接缓冲池"技术，数据库的连接和关闭是非常消耗性能的操作
+2. 线程池Thread Pool: 通过线程池中的线程来执行大量并行的任务，避免新线程的创建造成的性能影响
+3. 资源池Resource Pool: 解决资源的频繁分配和释放所造成的问题
+4. 服务池Service Pool: 统一管理创建好的服务
+
+Thread Pool设计案例：
+Creates a thread pool that creates new threads as needed,
+but will reuse previously constructed threads when they are available.
+
+These pools will typically improve the performance of programs that execute many short-lived asynchronous tasks.
+Calls to execute will reuse previously constructed threads if available.
+If no existing thread is available, a new thread will be created and added to the pool.

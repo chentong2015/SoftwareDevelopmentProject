@@ -13,9 +13,10 @@ public class ScheduleTrigger {
         SchedulerFactory schedulerFactory = new StdSchedulerFactory();
         Scheduler scheduler = schedulerFactory.getScheduler();
 
-        JobDetail job = JobBuilder.newJob(HelloJob.class)
+        JobDetail jobDetail = JobBuilder.newJob(HelloJob.class)
                 .withIdentity("job1", "group1")
                 .build();
+
         Trigger trigger = TriggerBuilder.newTrigger()
                 .withIdentity("trigger1", "group1")
                 .withSchedule(SimpleScheduleBuilder.simpleSchedule()
@@ -25,7 +26,7 @@ public class ScheduleTrigger {
                 .build();
 
         // Tell quartz to schedule the job using our trigger
-        scheduler.scheduleJob(job, trigger);
+        scheduler.scheduleJob(jobDetail, trigger);
         scheduler.start();
         // scheduler.shutdown();
     }

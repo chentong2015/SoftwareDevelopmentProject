@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="system-design" />
+        <module name="software-design-concepts" />
         <module name="software-plugin-extensions" />
       </profile>
     </annotationProcessing>
