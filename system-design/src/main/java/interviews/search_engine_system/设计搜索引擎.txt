@@ -1,1 +1,3 @@
 Creating a search engine system for finding doctors
+- How to filter doctors based on the input information ?
+- How to build the request and return results fast ?
