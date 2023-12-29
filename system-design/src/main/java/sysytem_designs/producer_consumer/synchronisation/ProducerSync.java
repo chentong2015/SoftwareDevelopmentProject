@@ -1,4 +1,4 @@
-package com.system.design.producer_consumer.synchronisation;
+package sysytem_designs.producer_consumer.synchronisation;
 
 import java.util.List;
 import java.util.Random;

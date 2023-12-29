@@ -1,4 +1,4 @@
-package com.system.design.schedule_trigger;
+package sysytem_designs.schedule_trigger;
 
 import org.quartz.*;
 import org.quartz.impl.StdSchedulerFactory;

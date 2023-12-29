@@ -1,4 +1,4 @@
-package com.system.design.scheduled_executor;
+package sysytem_designs.scheduled_executor;
 
 import java.util.concurrent.*;
 

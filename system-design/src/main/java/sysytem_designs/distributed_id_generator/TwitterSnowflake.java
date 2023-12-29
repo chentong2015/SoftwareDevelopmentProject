@@ -1,4 +1,4 @@
-package com.system.design.distributed_id_generator;
+package sysytem_designs.distributed_id_generator;
 
 // 雪花算法: 保证每台机器每个毫秒内生成的ID不同
 // 分布式ID: long 64bits分段存储不同的信息

@@ -1,4 +1,4 @@
-package com.system.design.producer_consumer.reentrantLock;
+package sysytem_designs.producer_consumer.reentrantLock;
 
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;

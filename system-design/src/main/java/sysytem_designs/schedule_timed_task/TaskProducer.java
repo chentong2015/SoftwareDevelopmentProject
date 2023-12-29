@@ -1,4 +1,4 @@
-package com.system.design.schedule_timed_task;
+package sysytem_designs.schedule_timed_task;
 
 import java.util.Random;
 import java.util.UUID;

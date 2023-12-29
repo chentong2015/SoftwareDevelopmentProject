@@ -1,4 +1,4 @@
-package com.system.design.producer_consumer.blocking_queue;
+package sysytem_designs.producer_consumer.blocking_queue;
 
 import java.util.concurrent.ArrayBlockingQueue;
 

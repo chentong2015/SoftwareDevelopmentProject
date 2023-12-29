@@ -1,4 +1,4 @@
-package com.system.design.schedule_timed_task;
+package sysytem_designs.schedule_timed_task;
 
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
