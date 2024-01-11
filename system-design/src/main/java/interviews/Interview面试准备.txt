@@ -1,0 +1,13 @@
+The Framework:
+Step 1 - Understand the problem and establish the design scope
+Step 2 - Propose high-level design and get buy-in
+Step 3 - Design deep dive
+Step 4 - Wrap up
+
+How to ask questions correct ?
+1. Who is the users are ?
+2. What are the main features of the system ? The Top features to build ?
+3. Functional requirements ? Follow RestFul APIs convention !
+4. Do not introduce too much details until we have a full picture of design !
+
+Focus on scale and performance !

@@ -84,7 +84,7 @@
 - JBoss
 - Undertow  --> Spring Boot
 - Jetty     --> Spring Boot
-- Oracle WebLogic server
+- Oracle WebLogic server => Application Server 应用服务器
 - IBM WebSphere
 - Liberty
 - Resin
