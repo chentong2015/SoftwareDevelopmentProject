@@ -4,10 +4,10 @@ What is System Design Interview ?
 3. Make decisions during discussion with interviews
 
 TODO. The Framework SDI面试步骤
-Step 1 - Understand the problem and establish the design scope
-Step 2 - Propose high-level design and get buy-in
-Step 3 - Design deep dive
-Step 4 - Wrap up
+Step 1: Understand the problem and establish the design scope ?
+Step 2: high-level design
+Step 3: deep-into design
+Step 4: Wrap up
 
 How to ask questions correct ?
 1. Who is the users are ?

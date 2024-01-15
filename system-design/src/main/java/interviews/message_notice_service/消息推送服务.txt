@@ -1,4 +1,0 @@
-Building a scalable messaging service to send notification to millions of patients
-- Use distributed system to provide scalability
-- Send notification by Subscribe/Publish messaging: asynchronous
-- Implement broadcast to send messages to all patients
