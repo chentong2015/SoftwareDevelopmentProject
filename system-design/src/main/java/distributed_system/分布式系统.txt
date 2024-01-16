@@ -21,6 +21,7 @@ Distributed Systems Key Points:
   how easy it is to operate and maintain ?
   可维护性和可操作性，多快以及多简单能够将系统修好
 
+- Sustainable 系统的可持续性
 
 high performance 高性能 (系统稳定且高效)
 high concurrency 高并发 (能够支撑起大量用户的并发访问)
