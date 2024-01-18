@@ -2,12 +2,11 @@ Design a system that allows patients to search for and book a practitioner.
 The system should handle searching for doctors based on location, specialty, and availability.
 It also needs to support booking, rescheduling, and canceling appointments.
 
-TODO. Requirements Gathering 根据题目选择适当的提问
+TODO. 1. Requirements Gathering 根据题目选择适当的提问
 1. Support Web and Mobile UI ?
 2. We don't need to login for searching, but booking ?
 3. Support find/view scheduled appointments
 
-TODO. High-level Design 设计整体的框架
 Functional Requirements: Two core services 包含两个核心的服务功能, 核心的.
 - Searching Service: Search doctors
 - Booking Service: Book + Reschedule + Cancel + View
@@ -18,7 +17,10 @@ Non-functional requirements:
 - Highly reliable (Safety): all booking information should never be lost 数据表的备份和刷新
 - High consistent: share same information between Mobile and web 不同的APP使用相同的后端服务
 
-TODO. Deep Dive / Deep into system 完善框架的细节，设计API，算法，数据表等
+TODO. 2. High-level Design 设计整体的框架
+整理出系统中的核心组件和服务，绘制简单架构图
+
+TODO. 3. Deep into system 完善框架的细节，设计API，算法，数据表等
 - REST API
 - LB for balancing the traffic
 - Caching for searching
@@ -29,12 +31,9 @@ TODO. Deep Dive / Deep into system 完善框架的细节，设计API，算法，
 - Microservice for large-scale system 大型系统中的微服务，支撑副本和分布式部署
 - Monitoring the performance of our service 监听服务的性能
 
-TODO. Optimization 讨论系统相关的问题，解决分布式系统的关键
- Scaling, Fault tolerance, and data consistency
+TODO. 4. Optimization & Estimation 讨论系统相关的问题，解决分布式系统的关键
 - Scaling: 增加部署的服务，调整LB的map映射
 - Fault tolerance: 系统没有单点故障(single point failure), 一个服务出错也不会挂掉整个系统
 - Data consistency: 数据在备份(backup)的时候需要刷新
 
-
-
-
+TODO. 5. Sum up 简单的总结
