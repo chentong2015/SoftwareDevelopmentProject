@@ -12,28 +12,28 @@ Functional Requirements: Two core services 包含两个核心的服务功能, �
 - Booking Service: Book + Reschedule + Cancel + View
 
 Non-functional requirements:
-- Highly available: user can access services anytime and everywhere 服务不会有任何挂断的情况
 - Low latency: searching less than 1s 本地缓存来加速搜索的结果，设置缓存过期算法
-- Highly reliable (Safety): all booking information should never be lost 数据表的备份和刷新
-- High consistent: share same information between Mobile and web 不同的APP使用相同的后端服务
+- High available: user can access services anytime and everywhere 服务不会有任何挂断的情况
+- High reliable(safety): all booking information should never be lost 数据表的备份和刷新
+- High consistent: share same information between mobile and web 不同的APP使用相同的后端服务
 
 TODO. 2. High-level Design 设计整体的框架
 整理出系统中的核心组件和服务，绘制简单架构图
 
-TODO. 3. Deep into system 完善框架的细节，设计API，算法，数据表等
+TODO. 3. Deep into system 完善框架细节，自顶向下设计
+- Load Balancer / Service Discovery
 - REST API
-- LB for balancing the traffic
 - Caching for searching
-- Data Schema Design
+- SQL
+- Data Schema / DB backup (Data consistency)
+
+TODO. 4. Optimization & Estimation 讨论系统相关的问题，解决分布式系统的关键
+- Monitoring: 服务的监控
+- Scalability: 分布式系统的服务可扩展性
+- Fault tolerance: 系统没有单点故障(single point failure)
 - Data Sharding / Data Partitioning
   - Horizontal Scaling: 根据id来划分，需要全局的分布式id生成器，搜索时需要整合全部的搜索结果
   - Vertical Scaling: Based on service 将不同服务的数据存储到不同的数据库
-- Microservice for large-scale system 大型系统中的微服务，支撑副本和分布式部署
-- Monitoring the performance of our service 监听服务的性能
-
-TODO. 4. Optimization & Estimation 讨论系统相关的问题，解决分布式系统的关键
-- Scaling: 增加部署的服务，调整LB的map映射
-- Fault tolerance: 系统没有单点故障(single point failure), 一个服务出错也不会挂掉整个系统
-- Data consistency: 数据在备份(backup)的时候需要刷新
+- Automated Testing: 服务的自动化测试
 
 TODO. 5. Sum up 简单的总结
