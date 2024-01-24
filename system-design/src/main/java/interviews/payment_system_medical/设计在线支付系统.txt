@@ -8,3 +8,6 @@ REST API Designs Template:
 GET /v1/payment-service/order/{id}
 POST /v1/payment-service/order/{id}
 DELETE /v1/payment-service/order/{id}
+
+Stripe Payment Java Client SDK
+https://github.com/stripe/stripe-java

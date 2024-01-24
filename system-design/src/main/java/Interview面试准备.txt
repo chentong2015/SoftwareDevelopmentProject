@@ -14,3 +14,5 @@ How to ask questions correct ?
 2. What are the main features of the system ? The Top features to build ?
 3. Functional requirements ? Follow RestFul APIs convention !
 4. Do not introduce too much details until we have a full picture of design !
+
+https://excalidraw.com/

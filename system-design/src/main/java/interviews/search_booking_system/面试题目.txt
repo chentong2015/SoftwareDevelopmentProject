@@ -6,14 +6,15 @@ TODO. 1. Requirements Gathering 根据题目选择适当的提问
 1. Support Web and Mobile UI ?
 2. We don't need to login for searching, but booking ?
 3. Support find/view scheduled appointments
+4. Searching and booking are web services ? provide REST APIs ?
 
-Functional Requirements: Two core services 包含两个核心的服务功能, 核心的.
+Functional Requirements: Two core services 包含两个核心的服务
 - Searching Service: Search doctors
 - Booking Service: Book + Reschedule + Cancel + View
 
 Non-functional requirements:
 - Low latency: searching less than 1s 本地缓存来加速搜索的结果，设置缓存过期算法
-- High available: user can access services anytime and everywhere 服务不会有任何挂断的情况
+- High available: user can access services at anytime and from everywhere 服务不会有任何挂断的情况
 - High reliable(safety): all booking information should never be lost 数据表的备份和刷新
 - High consistent: share same information between mobile and web 不同的APP使用相同的后端服务
 
