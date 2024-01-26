@@ -3,13 +3,15 @@ What is System Design Interview ?
 2. Design Architect to satisfies those requirements
 3. Make decisions during discussion with interviews
 
-TODO. The Framework SDI面试步骤
+TODO. The Framework SDI 面试步骤
 Step 1: Understand the problem and establish the design scope ?
 Step 2: high-level design
 Step 3: deep-into design
 Step 4: Wrap up
 
-How to ask questions correct ?
+TODO. Ask correct questions ? 提恰当的问题
+- 提问的问题一定是要和设计题目相关的 !!
+- 设计的component也一定要和题目要求的相关，不要使用多余的，不适合的设计 !!
 1. Who is the users are ?
 2. What are the main features of the system ? The Top features to build ?
 3. Functional requirements ? Follow RestFul APIs convention !
