@@ -1,1 +1,0 @@
-Building a scalable messaging service to send notification to millions of patients

@@ -1,5 +1,0 @@
-Creating a social media Newsfeed System:
-(Facebook’s Newsfeed, Twitter Newsfeed, Instagram Newsfeed ..)
-
-Newsfeed APP首页推荐的消息页面: 如何使用相关性算法生成结果
-Ranking and News Feed Generation 消息的生成是需要排序的(可以优先生成)
