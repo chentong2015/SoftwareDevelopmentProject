@@ -4,6 +4,8 @@
    - 将团队划分成不同的train，朝相同目标前进moving towards the same goal/objectives
 
 2. Scrum 一种Agile方法，Agile的一种实现
+   SCRUM methodologies: ceremonies like daily stand-ups, retro, demo, backlog grooming
+
    Other types of agile development methodology are:
    - Extreme Programming(XP)
    - Feature-driven development(FDD)
@@ -16,7 +18,7 @@
    - Product Owner
    - Developers
 
-\--------------------------------------------------------
+--------------------------------------------------------
 4. Planning 一个PI通常包含多个sprint
    PI计划会议通常用来定义大的Feature，讨论之后的方向
    PI计划需要将首先的用户需求转换成技术需求
@@ -33,7 +35,7 @@
    - story point / estimate the time / vote
    - backlog history
 
-\--------------------------------------------------------
+--------------------------------------------------------
 Kanban
    A tool to help us focus on the work progress
 
