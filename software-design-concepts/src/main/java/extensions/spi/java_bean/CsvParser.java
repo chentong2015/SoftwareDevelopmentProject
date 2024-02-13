@@ -1,4 +1,4 @@
-package extensions.core_spi.model;
+package extensions.spi.java_bean;
 
 public class CsvParser implements IDocumentParser {
 

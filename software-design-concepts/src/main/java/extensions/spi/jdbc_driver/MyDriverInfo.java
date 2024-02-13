@@ -1,4 +1,4 @@
-package extensions.core_spi.jdbc_driver;
+package extensions.spi.jdbc_driver;
 
 import java.sql.Driver;
 import java.sql.DriverAction;

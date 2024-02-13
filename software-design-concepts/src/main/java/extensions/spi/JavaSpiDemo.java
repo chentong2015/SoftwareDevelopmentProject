@@ -1,6 +1,6 @@
-package extensions.core_spi;
+package extensions.spi;
 
-import extensions.core_spi.model.IDocumentParser;
+import extensions.spi.java_bean.IDocumentParser;
 
 import java.util.ServiceLoader;
 

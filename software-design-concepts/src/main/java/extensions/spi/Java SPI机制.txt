@@ -9,4 +9,4 @@ Java SPI机制动态加载指定接口的实现类型
 
 缺点:
 1. java spi不能单独获取某个指定的实现类
-2. java spi没有IOC和AOP机制
+2. java spi没有IOC和AOP机制，在加载时无法自动注入依赖并且生成Proxy代理类型
