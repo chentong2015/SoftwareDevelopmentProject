@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="system-design" />
         <module name="software-design-concepts" />
-        <module name="software-plugin-extensions" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="software-plugin-extensions" target="15" />
+    </bytecodeTargetLevel>
   </component>
 </project>

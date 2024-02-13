@@ -1,0 +1,15 @@
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/demo/MySqlGenerator.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/liquibase_plugins/AbstractPluginFactory.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/demo/SqlGeneratorFactory.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/jdbc_driver/JavaDriverManager.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/liquibase_plugins/Plugin.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/JavaSpiDemo.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/model/ExcelParser.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/model/CsvParser.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/concept/dependency_Injection/BaseIoC.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/model/IDocumentParser.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/demo/SqlGenerator.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/jdbc_driver/MyDriverInfo.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/extensions/core_spi/jdbc_driver/MyDBServerDriver.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/concept/dependency_Injection/DependencyClass.java
+/Users/tongchen/Documents/Work My Projects/Software System Design/SoftwareSystemDesign/software-design-concepts/src/main/java/concept/dependency_Injection/IDependencyClass.java
