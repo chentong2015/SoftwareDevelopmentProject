@@ -6,26 +6,13 @@ Software Release 软件的提交和发布需要考虑如下两点
 1. 所提交的变更是否包含不必要的变更(比如同于测试的changelist)
 2. 所提交的变更是否有所遗漏(left over)
 
-Build Tools 三大项目构建工具
+Build Tools 软件构建工具
 1. Maven
 2. Gradle
 3. Apache Ant Library https://ant.Apache
    Ant是一个Java库和命令行工具，主要已知用途是构建Java应用程序
    其任务是将构建文件中描述的进程驱动为相互依赖的目标和扩展点apache.org/
 
-README 文档持续更新
-- 项目简介: 用一两句话简单描述该项目所实现的业务功能
-- 技术选型: 列出项目的技术栈，包括语言、框架和中间件等
-- 本地构建: 列出本地开发过程中所用到的工具命令
-- 领域模型: 核心的领域概念，专业术语
-- 测试策略: 自动化测试如何分类，哪些必须写测试，哪些没有必要写测试
-- 技术架构: 技术架构图
-- 部署架构: 部署架构图
-- 外部依赖: 项目运行时所依赖的外部集成方，比如订单系统会依赖于会员系统
-- 环境信息: 各个环境的访问方式，数据库连接等
-- 编码实践: 统一的编码实践，比如异常处理原则、分页封装等
-- FAQ问题: 开发过程中常见问题的解答
-
-API 文档生成
-- maven-javadoc-plugin Web API文档自动生成
-- Swagger 自动识别代码中APIs方法信息并实时地创建出API文档
+Apache OpenSource 开源软件
+https://github.com/apache
+https://issues.apache.org/jira/projects
