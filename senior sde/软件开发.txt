@@ -6,13 +6,10 @@ Software Release 软件的提交和发布需要考虑如下两点
 1. 所提交的变更是否包含不必要的变更(比如同于测试的changelist)
 2. 所提交的变更是否有所遗漏(left over)
 
-Build Tools 软件构建工具
-1. Maven
-2. Gradle
-3. Apache Ant Library https://ant.Apache
-   Ant是一个Java库和命令行工具，主要已知用途是构建Java应用程序
-   其任务是将构建文件中描述的进程驱动为相互依赖的目标和扩展点apache.org/
+TODO. Software Operation & Monitoring
+Operation: 借助平台和软件对系统进行分析和评估
+Monitoring: 通过软件监测平台监控系统的健康并处理预警
 
-Apache OpenSource 开源软件
+TODO. Apache Open-Source 开源软件
 https://github.com/apache
 https://issues.apache.org/jira/projects

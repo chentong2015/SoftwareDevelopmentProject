@@ -1,0 +1,8 @@
+SAFe: Scaled Agile Framework
+
+任务的层次
+- Epic 3个月的目标Objectives，侧重大的业务层面
+- Feature 完整的功能和模块
+- Story/Defect 具体的部分
+
+一年四次PI，一个Sprint持续两周，最后一个Sprint创新，然后计划
