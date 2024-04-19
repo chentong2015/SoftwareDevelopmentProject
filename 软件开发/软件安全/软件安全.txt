@@ -1,6 +1,6 @@
 1. 避免不必要的class对外暴露(参考Java Module System)
 2. 对jar包进行数字签名避免反编译后的识别
 3. 通过SecurityManager设置文件系统访问权限
-
-4. 为软件生成特定的.lic版权，用于授权软件的使用(WhiteSource)
-5. 扫描软件并监测安全问题，MEND
+4. 为软件生成特定的.lic版权，授权软件的使用(WhiteSource)
+   Release生成的软件必须拿到license才能使用
+5. 扫描软件的Libraries是否存在安全问题
