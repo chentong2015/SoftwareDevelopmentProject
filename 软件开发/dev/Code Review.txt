@@ -1,0 +1,26 @@
+TODO. Code Review 核心架构
+满足最低三层要求才能提交, 第四五层是Review的核心
+CL只应该修改与特定问题相关的代码，避免在提交时与别的CL形成强依赖
+
+6. Architect
+   Functionality for the whole project
+   Relation with others modules/projects
+   Usage changes ?
+
+5. Impacts
+   Potential bugs, dependencies, adaptation
+
+4. Best solution ?
+   Why it works, is there better way to do ?
+   What do we miss ?
+
+3. Testing
+   Test coverage, Unit test, IT test
+
+2. Code Quality
+   Grammar, Code style, Clean code, Design patterns
+   (IDEA Analyze Code, SonarLint, SonarQube)
+
+1. Right Answer
+   What's the problem for this fix ?
+   Why we need this fix ?
