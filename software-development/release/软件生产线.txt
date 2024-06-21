@@ -6,10 +6,5 @@ Software Release 软件的提交和发布需要考虑如下两点
 1. 所提交的变更是否包含不必要的变更(比如同于测试的changelist)
 2. 所提交的变更是否有所遗漏(left over)
 
-TODO. Software Operation & Monitoring
 Operation: 借助平台和软件对系统进行分析和评估
 Monitoring: 通过软件监测平台监控系统的健康并处理预警
-
-TODO. Apache Open-Source 开源软件
-https://github.com/apache
-https://issues.apache.org/jira/projects
