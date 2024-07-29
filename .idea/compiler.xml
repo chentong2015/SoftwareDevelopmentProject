@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="software-design-concepts" />
         <module name="core-system-design" />
+        <module name="base-design-concepts" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="software-plugin-extensions" target="15" />
+      <module name="system-design" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
