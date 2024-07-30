@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="software-design-concepts" target="17" />
       <module name="software-plugin-extensions" target="15" />
       <module name="system-design" target="17" />
     </bytecodeTargetLevel>
