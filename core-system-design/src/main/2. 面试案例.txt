@@ -2,21 +2,11 @@ Design a system that allows patients to search for and book a practitioner.
 The system should handle searching for doctors based on location, specialty, and availability.
 It also needs to support booking, rescheduling, and canceling appointments.
 
-TODO. 1. Requirements Gathering 根据题目选择适当的提问
+TODO. 1. Requirements Gathering 先提问，而非直接给Solution
 1. Support Web and Mobile UI ?
 2. We don't need to login for searching, but booking ?
 3. Support to find/view scheduled appointments
 4. availability=3? Search from today to 3 days later
-
-Functional Requirements: Two core services
-- Searching Service: Search doctors
-- Booking Service: Book + Reschedule + Cancel + View
-
-Non-functional requirements:
-- Low latency: searching less than 1s
-- High available: user can access services at anytime and from everywhere
-- High reliable(safety): all booking information will never be lost
-- High consistent: share same information between mobile and web
 
 TODO. 2. High-level Design 设计整体的框架，三层基本架构
 - UI Layer
@@ -30,7 +20,7 @@ TODO. 3. Deep into system 完善框架细节，自顶向下设计
 - ORM Engine
 - DB Schema / DB backup
 
-TODO. 4. Scalability / Estimation
+TODO. 4. Scalability 探讨系统分布式扩展性
 - Hash Consistent
 - Service Discovery
 - Scalability: 分布式系统的服务可扩展性
