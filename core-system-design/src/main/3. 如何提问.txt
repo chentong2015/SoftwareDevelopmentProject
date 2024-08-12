@@ -1,22 +1,29 @@
-Ask correct questions ? 提恰当的问题
-- 提问的问题一定是要和设计题目相关的 !!
-- 设计的component也一定要和题目要求的相关，不要使用多余的，不适合的设计 !!
+TODO. Ask correct questions ?
+- 提的问题一定是要和设计题目相关，解决需要设计的问题
+- 适当扩展系统设计的Component，但需要避免多余的组件(没有时间讨论)
 1. Who is the users are ?
 2. What are the main features of the system ? The Top features to build ?
 3. Functional requirements ? Follow RestFul APIs convention !
 4. Do not introduce too much details until we have a full picture of design !
 
-
 TODO. Use cases: How will the API/Service be used ？
 Functional Requirements:
-  - Searching Service: Search doctors
-  - Booking Service: Book + Reschedule + Cancel + View
+- Searching Service: Search doctors
+- Booking Service: Book + Reschedule + Cancel + View
 Non-functional requirements:
-  - Low latency: searching less than 1s
-  - High available: user can access services at anytime and from everywhere
-  - High reliable(safety): all booking information will never be lost
-  - High consistent: share same information between mobile and web
+- Low latency: searching less than 1s
+- High available: user can access services at anytime and from everywhere
+- High reliable(safety): all booking information will never be lost
+- High consistent: share same information between mobile and web
 
 TODO. Math 数据计算: API服务需要支撑多大的并发量 + 需要多大的数据存储空间
 1. The amount of traffic the system should handle
 2. The amount of data the system should work with
+
+TODO. Major bottlenecks 设计瓶颈，系统必须克服的问题
+1. handling a lot of users
+2. handling a lot of data
+
+TODO. Tradeoff based on real-life architectures 权衡选择
+(time, budget, knowledge, complexity, technologies currently available, etc.)
+
