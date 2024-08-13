@@ -12,8 +12,11 @@ Design Scalable Blog
   - Average Size per Blog 2MB
   - how many blogs for 10 years: 2MB * 100/day * 356 * 10 = 700GB
 
-3. High Level Design
-- UI: Post + Search Button
+3. High Level Design 通常包含两个大的部分：请求的接收和Data存储
+- UI:
+  - Post + Search Button
+  - Blog page
+  - Uer profile page
 - Backend Service: Blog Service
   - Request handling
   - data layer for saving and selecting
