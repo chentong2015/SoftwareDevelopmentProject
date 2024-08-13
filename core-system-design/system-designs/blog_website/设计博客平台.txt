@@ -8,7 +8,7 @@ Design Scalable Blog
 2. Math
 - how many user use per day
 - how many times of creation / searching per minutes 500/s
-- Data Storage
+- Data Storage 需要了解大致的数据存储量
   - Average Size per Blog 2MB
   - how many blogs for 10 years: 2MB * 100/day * 356 * 10 = 700GB
 
