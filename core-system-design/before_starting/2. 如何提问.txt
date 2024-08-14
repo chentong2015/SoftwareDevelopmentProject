@@ -17,5 +17,5 @@ TODO. Math 数据计算: API服务需要支撑多大的并发量 + 需要多大�
 3. what availability is expected
 4. what response times are tolerable / low-latency
 
-TODO. Tradeoff based on real-life architectures 权衡选择
+TODO. Tradeoff based on real-life architectures 权衡选择 + 技术的选型
 (time, budget, knowledge, complexity, technologies currently available, etc.)
