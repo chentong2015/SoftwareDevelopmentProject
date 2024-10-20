@@ -1,0 +1,3 @@
+1. 所有Release软件必须使用license授权
+2. WhiteSource为软件生成特定.lic版权文件以授权使用
+3. 为软件生成COPYRIGHT权限声明版权所有

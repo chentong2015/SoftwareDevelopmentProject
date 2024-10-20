@@ -1,0 +1,12 @@
+软件的安全问题主要来源于两个层面
+- 软件自身开发所引入的安全问题(代码质量，安全漏洞，被攻击)
+- 软件第三方依赖引入的安全问题(插件和类库带来的漏洞)
+
+软件安全扫描和检测
+- SonarQube Static Code Analysis
+- GitHub Security Scan
+- MEND.io Scan
+- Checkmarks Scan
+
+TODO. 软件公共安全问题
+CVE Public Vulnerabilities: https://cve.mitre.org/
