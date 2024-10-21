@@ -8,5 +8,11 @@
 - MEND.io Scan
 - Checkmarks Scan
 
+Severity Levels
+- Critical
+- High
+- Medium
+- Low
+
 TODO. 软件公共安全问题
 CVE Public Vulnerabilities: https://cve.mitre.org/
