@@ -1,15 +1,22 @@
 Jira 用于计划和展现项目进度的平台
-  - defect / task
-  - feature 大的功能或更新
-  - user story / acceptance criteria
-  - story point / estimate the time / vote
-  - backlog history
+- defect / task
+- feature 大的功能或更新
+- user story / acceptance criteria
+- story point / estimate the time / vote
+- backlog history
+
 Confluence Doc 文档和wiki平台
+
 ServiceNow Support 提出问题和请求平台
+
 Kanban 用于展示工作进度工具
-miro.com 企业白板工作流程
+
+Miro.com 企业白板工作流程
 
 https://www.yuque.com 个人技术框架图：phone/TCHong15
 https://www.processon.com 历史绘图工具：wechat/chen2017 TCHong17
 https://excalidraw.com/ 免登录白板绘图平台
-Vosviewer / Gephi / Citespace 关系图谱
+
+Vosviewer
+Gephi
+Citespace
