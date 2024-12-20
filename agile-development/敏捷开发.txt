@@ -24,10 +24,11 @@ Jira 用于计划和展现项目进度的平台
 - story point / estimate the time / vote
 - backlog history
 
-Confluence Doc 文档和wiki平台
-ServiceNow Support 提出问题和请求平台
-Kanban 用于展示工作进度工具
-Miro.com 企业白板工作流程
+Confluence 文档和wiki平台
+ServiceNow 问题请求平台
+Kanban     工作进度展示平台
+Miro.com   工作流程白板
+Grafana dashboard 看板展示平台
 
 https://www.yuque.com 个人技术框架图：phone/TCHong15
 https://www.processon.com 历史绘图工具：wechat/chen2017 TCHong17
