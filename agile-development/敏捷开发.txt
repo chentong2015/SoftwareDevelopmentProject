@@ -16,21 +16,16 @@ Agile Team 团队构成: 所有人都应具有技术背景
 - Developers
 - Tech Leader/Expert
 
-------------------------------------------------------------------------------
-Jira 用于计划和展现项目进度的平台
-- defect / task
+Jira Dashboard 项目进度平台
+- defect / fix 具体的缺陷修复
 - feature 大的功能或更新
 - user story / acceptance criteria
 - story point / estimate the time / vote
 - backlog history
 
-Confluence 文档和wiki平台
+Confluence 项目文档和wiki平台
 ServiceNow 问题请求平台
 Kanban     工作进度展示平台
 Miro.com   工作流程白板
+PowerBI 面包展示工具
 Grafana dashboard 看板展示平台
-
-https://www.yuque.com 个人技术框架图：phone/TCHong15
-https://www.processon.com 历史绘图工具：wechat/chen2017 TCHong17
-https://excalidraw.com/ 免登录白板绘图平台
-Vosviewer / Gephi / Citespace
