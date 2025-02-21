@@ -9,5 +9,11 @@ TODO. 通用软件设计思想
 - 软件配置必须兼容不同OS平台，同时提供.cmd & .sh配置文件
 - 软件在服务端运行需要配置jvm相关参数，支持远程Debug
 
-- 软件底层DB设计属于具体细节，任何变动都可能带来巨大的影响
-- 多个软件共享DB时存在版本兼容性问题，相同DB不一定支持多版本
+
+https://www.yuque.com     个人技术框架图: phone/TCHong15
+https://www.processon.com 历史绘图工具: wechat/chen2017 TCHong17
+https://excalidraw.com/   白板绘图平台
+
+Gephi: visualization of all kinds of graphs and networks
+Vosviewer: visualizing bibliometric networks 可视化文献计量网络
+Citespace: visual exploration of scientific literature. 城市地图可视化
