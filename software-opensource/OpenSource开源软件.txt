@@ -1,3 +1,0 @@
-Apache Open-Source 开源软件
-https://github.com/apache
-https://issues.apache.org/jira/projects
