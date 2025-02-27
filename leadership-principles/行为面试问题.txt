@@ -1,0 +1,35 @@
+行为面试问题没有标准答案，但需要回答处理方式
+
+When you face a problem, how do you solve it ?
+  - Ask the most relevant people to discuss
+  - Find the most “right solution” for customer (Do more with less resources)
+  - Take consideration for all opinions and evaluate (Are right a lot, Earn Trust)
+  - Take actions quickly (Most of the case, 2 doors decisions)
+
+Tell me about a time you failed at work. What did you learn from it ?
+
+Tell me about a challenge you faced. What was your role & the outcome ?
+
+Tell me about a time you disagreed with a coworker / manager / decision
+  - Comment / Discussion
+
+Tell me about a time you had to work or make a decision quickly / under a tight deadline
+
+Tell an example about the task deadline is incorrectly defined
+  - Define several mini task
+
+Tell an example about your help to others people
+  - Whenever there is needs
+
+Tell an example about you have to choose between quality and time
+  - Make sure the code quality 100%
+  - Build Hotfix version
+
+Explain some incidents that happened in your career. What did you do ?
+  - Performance Issue, the solution is not stable, client feedback
+  - Found the root cause, dive deep to the details
+  - Take ownership to fix the problem, I’m the owner for the project
+  - Are Right a lot
+
+How would I handle a situation where I thought something should be done differently ?
+  - related people, propose/demonstration good points, impacts, benefits
