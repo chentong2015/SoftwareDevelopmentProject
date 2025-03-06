@@ -1,3 +1,4 @@
+TODO. 如何写软件文档/软件说明书 ?
 README 文档持续更新
 - 项目简介: 用一两句话简单描述该项目所实现的业务功能
 - 技术选型: 列出项目的技术栈，包括语言、框架和中间件等
@@ -11,6 +12,6 @@ README 文档持续更新
 - 编码实践: 统一的编码实践，比如异常处理原则、分页封装等
 - FAQ问题: 开发过程中常见问题的解答
 
-API 文档生成
-- maven-javadoc-plugin Web API文档自动生成
-- Swagger 自动识别代码中APIs方法信息并实时地创建出API文档
+API 文档自动生成
+- maven-plugin 代码API文档页面
+- Swagger-ui   代码EndpointsAPI文档页面

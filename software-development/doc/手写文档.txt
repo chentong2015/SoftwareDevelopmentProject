@@ -1,0 +1,13 @@
+TODO. What content should be documented ?
+- Big feature/User Story
+- Software Architect
+- Software Process Design
+
+Who is the documentation for?
+- Business/Product manager
+- Developer
+- Customer
+
+How to do without documentation ?
+- Codebase/Pull Request
+- Ticket description
