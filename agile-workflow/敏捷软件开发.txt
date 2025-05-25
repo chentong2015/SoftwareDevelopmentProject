@@ -1,6 +1,6 @@
 Agile 敏捷软件开发:
 - 通过快速迭代项目来推进项目，不断修改计划和设计
-- 将团队划分成不同的train，朝相同目标前进moving towards the same goal/objectives
+- 将团队划分成不同的train，朝相同goal/objectives目标前进
 
 Extreme Programming(XP) 极限编程特点
 - User case / User Story

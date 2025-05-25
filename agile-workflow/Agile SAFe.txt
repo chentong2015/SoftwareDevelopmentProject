@@ -1,0 +1,16 @@
+SAFe: Scaled Agile Framework
+一种Agile开发的具体实现/实践
+
+任务的层次
+- Epic/Objectives 重大业务目标
+- Feature 完整的功能和模块
+- Story/Defect 具体的部分
+
+一年四次PI
+一个Sprint持续两周
+每周动态地refinement
+一个Sprint结束汇报+Retro回顾
+
+TODO. 思考问题: Acceptance Criteria + Test Cases
+Feature通过是关乎业务层面的功能
+Feature需要被转换成技术层面的实现/逻辑

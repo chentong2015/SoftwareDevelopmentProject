@@ -1,0 +1,4 @@
+Other types of agile development methodology are:
+- Extreme Programming(XP) / Pair programing 结对编程
+- Feature-driven development(FDD)
+- Lean software development
