@@ -1,18 +1,16 @@
 TODO. 通用软件设计思想
 - 大文件下载和拷贝，在程序运行过程中会生成临时文件，用于暂停和撤销等操作
-
 - 软件启动过程时生成.lock锁文件，避免用户进一步的操作
 - 软件启动通常可以判断用户Session的状态，限制同一个Session的多状态
 - 软件启动相关异常错误通常写入到/log日志中，方便用户查看
-
 - .exe文件可以通过CMD启动，方便检测启动错误
 - 软件配置必须兼容不同OS平台，同时提供.cmd & .sh配置文件
 - 软件在服务端运行需要配置jvm相关参数，支持远程Debug
 
+TODO. Apache Open-Source 开源项目
+https://github.com/apache
+https://issues.apache.org/jira/projects
+
 https://www.yuque.com     个人技术框架图: phone/TCHong15
 https://www.processon.com 历史绘图工具: wechat/chen2017 TCHong17
 https://excalidraw.com/   白板绘图平台
-
-Gephi: visualization of all kinds of graphs and networks
-Vosviewer: visualizing bibliometric networks 可视化文献计量网络
-Citespace: visual exploration of scientific literature. 城市地图可视化
