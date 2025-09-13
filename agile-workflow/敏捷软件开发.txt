@@ -2,24 +2,22 @@ Agile 敏捷软件开发:
 - 通过快速迭代项目来推进项目，不断修改计划和设计
 - 将团队划分成不同的train，朝相同goal/objectives目标前进
 
-Extreme Programming(XP) 极限编程特点
+Feature-driven development(FDD) 面向业务的应用大多基于feature来驱动开发
+
+Extreme Programming(XP) 极限编程的特点
 - User case / User Story
-- Pair Programming
+- Pair Programming 结对编程
 - Fast iteration / Acceptance tests
 - Open space
 
-Agile Team 团队构成: 所有人都应具有技术背景
-- Scrum Master
-- Quality Assurance
-- Manager
-- Product Owner
-- Developers
-- Tech Leader/Expert
+Agile Team 所有人都应具有技术背景
+Scrum Master, QA, Manager, Product Owner, Dev, Tech Leader/Expert
 
 Jira Dashboard 项目进度平台
-- defect / fix 具体的缺陷修复
+- defect 现有的缺陷
 - feature 大的功能或更新
-- user story / acceptance criteria
+- user story 新增加的用户案例
+- acceptance criteria
 - story point / estimate the time / vote
 - backlog history
 

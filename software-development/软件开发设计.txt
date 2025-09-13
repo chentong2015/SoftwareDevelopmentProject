@@ -7,10 +7,6 @@ TODO. 通用软件设计思想
 - 软件配置必须兼容不同OS平台，同时提供.cmd & .sh配置文件
 - 软件在服务端运行需要配置jvm相关参数，支持远程Debug
 
-TODO. Apache Open-Source 开源项目
-https://github.com/apache
-https://issues.apache.org/jira/projects
-
-https://www.yuque.com     个人技术框架图: phone/TCHong15
-https://www.processon.com 历史绘图工具: wechat/chen2017 TCHong17
+https://www.yuque.com     phone/TCHong15
+https://www.processon.com wechat/chen2017 TCHong17
 https://excalidraw.com/   白板绘图平台
