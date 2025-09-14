@@ -1,0 +1,70 @@
+软件依赖的第三方库, 需要保证其License开源且授权免费
+
+Copyright (c) 1992-2022. All rights reserved.
+
+Note that this software may also include accompanying third-party software for use in conjunction with this software.
+Installation and use of such accompanying third-party software are subject to your acceptance of the applicable licence terms and conditions.
+Those licence terms and conditions will be displayed below or at first installation/use (as the case may be).
+You should carefully read those licence terms and conditions.
+
+commons-beanutils-1.11.0.jar	  commons-beanutils	: Apache License 2.0
+commons-collections-3.2.2.jar	  commons-collections-3.2 : Apache License 2.0
+jakarta.annotation-api-2.1.1.jar  jakarta.annotation : Eclipse 2.0, GPL 2.0 Classpath
+ojdbc8-19.3.0.0.jar	    com.oracle.ojdbc	: Oracle Technology Network License Agreement
+slf4j-api-2.0.17.jar	org.slf4j : MIT License
+slf4j-ext-2.0.17.jar	org.slf4j : MIT License
+
+Licenses: 关于每种License的声明
+
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+---
+BSD 3-clause "New" or "Revised" License
+(XStream 1.4.10)
+Copyright (c) 2003-2006, Joe Walnes
+Copyright (c) 2006-2015, XStream Committers
+All rights reserved.
+
+---
+Eclipse Public License 1.0
+Eclipse Public License - v 1.0
+
+---
+GNU Lesser General Public License v2.1 or later
+(FindBugs-Annotations 3.0.0, Logback 1.2.3, Logback Classic Module 1.2.3)
+GNU Lesser General Public License
+
+---
+MIT License
+The MIT License
+Copyright (c) <year> <copyright holders>
+
+---
+Oracle Technology Network Development and Distribution License
+ORACLE TECHNOLOGY NETWORK DEVELOPMENT AND DISTRIBUTION LICENSE AGREEMENT
+
+---
+Unknown License
+The license has not been identified.
+
+--------------
+License Rights
+
+We grant you a nonexclusive, nontransferable limited license to use the programs
+only for purposes of developing and prototyping your applications that operate
+with the programs, and not for any other purpose. If you want to use the programs
+for any purpose other than as permitted under this agreement you must contact us,
+or an Oracle reseller, to obtain the appropriate license. We may audit your use
+of the programs. Program documentation is either shipped with the programs, or
+documentation may accessed online at http://otn.oracle.com/docs.
+
+--------------
+Open Source
+
+"Open Source" software -- software available without charge for use, modification
+and distribution -- is often licensed under terms that require the user to make
+the user's modifications to the Open Source software or any software that the
+user '...
