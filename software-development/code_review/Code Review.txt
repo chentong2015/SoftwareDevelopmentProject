@@ -1,20 +1,20 @@
-TODO. Code Review 核心架构
-满足最低三层要求才能提交, 第四五层是Review的核心
-CL只应该修改与特定问题相关的代码，避免在提交时与别的CL形成强依赖
+TODO. Code Review 本质
+ChangeList提交一定要等待Reviewer的检查, 让子弹飞一会 !!
+ChangeList只应该修改与特定问题相关的代码, 避免和被的CL形成依赖
 
 6. Architect
    Functionality for the whole project
    Relation with others modules/projects
    Usage changes ?
 
-5. Impacts
+5. Impacts 验证的难点
    Potential bugs, dependencies, adaptation
 
-4. Best solution ?
+4. Best solution ? 验证的核心
    Why it works, is there better way to do ?
    What do we miss ?
 
-3. Testing
+3. Testing 验证前的基础条件
    Test coverage, Unit test, IT test
 
 2. Code Quality
