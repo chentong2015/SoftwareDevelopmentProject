@@ -14,7 +14,7 @@ ChangeList只应该修改与特定问题相关的代码, 避免和被的CL形成
    Why it works, is there better way to do ?
    What do we miss ?
 
-3. Testing 验证前的基础条件
+3. Tests Pass ? 验证前的基础
    Test coverage, Unit test, IT test
 
 2. Code Quality
