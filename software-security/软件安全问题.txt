@@ -2,22 +2,14 @@
 - 软件开发所引入的安全问题(代码质量，安全漏洞，被攻击)
 - 第三方依赖所引入的安全问题(插件和类库带来的漏洞)
 
-TODO. Secure Code Secrets
-- 软件代码或者配置中不应该包含任何Secret数据(使用统一安全平台存储)
-  HashiCorp Vault
-  AWS Secret Manager
-  Azure Ket Vault
-- 软件通过CI/CD流程提供Secret数据并集成到源码
-  Truffle Hog
-  Dumpster Diver
-
-TODO. InfoSec Scanning Tools
-- IDEA Detect
-- GitHub Security Scan
-- MEND.io Scan
-- Checkmarks Scan
-- Snyk Cloud Security
-- Tenable Scan
+TODO. Code Secret 如何安全存储(不能出现在代码中)?
+- HashiCorp Vault
+- AWS Secret Manager
+- Azure Ket Vault
+- Truffle Hog
+- Dumpster Diver
 
 Severity Levels: Critical > High > Medium > Low
-Public Known Vulnerabilities: CVE https://cve.mitre.org/
+
+Public Known Vulnerabilities: CVE
+https://cve.mitre.org/
