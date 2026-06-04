@@ -1,19 +1,17 @@
-package encryption.AES;
+package encryption.Symmetric_AES;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import java.nio.charset.StandardCharsets;
 
-public class AesEncryption extends Aes_cbc {
+public class Aes256Encryption extends Aes256CBC {
 
-    // 对称加密: 支持加密字母和数字以外的字符
+    private static String password = "batch";
+
     public static void main(String[] args) {
-        AesEncryption aesEncryption = new AesEncryption();
-
-        // String password = "_#/!?.=$%+-|\\\\&*_#/!?.=$%+-|\\";
-        String password = "batch";
+        Aes256Encryption aesEncryption = new Aes256Encryption();
         byte[] ivBytes = aesEncryption.hexToBytes(USER_PASSWORD_IV);
-        SecretKey secretKey = aesEncryption.toSecretKey();
+        SecretKey secretKey = aesEncryption.getSecretKey();
 
         byte[] cipherTextBytes = aesEncryption.encrypt(password, secretKey, ivBytes);
         String passwordEncrypted = aesEncryption.base64BytesToString(cipherTextBytes);

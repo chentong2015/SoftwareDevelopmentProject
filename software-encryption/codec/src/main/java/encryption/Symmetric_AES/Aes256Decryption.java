@@ -1,18 +1,18 @@
-package encryption.AES;
+package encryption.Symmetric_AES;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import java.nio.charset.StandardCharsets;
 
-public class AesDecryption extends Aes_cbc {
+// 对称加密: 解密加密后的字符串
+public class Aes256Decryption extends Aes256CBC {
 
-    public static void main(String[] args) throws Exception {
-        AesDecryption aesDecryption = new AesDecryption();
+    private static String base64CipherText = "+Bw3I8UrIOHZqJTezt6qgQ==";
 
-        // 对称加密: 解密加密后的字符串
-        String base64CipherText = "+ai7dQc5eHvziEgMsqr7mw==";
+    public static void main(String[] args) {
+        Aes256Decryption aesDecryption = new Aes256Decryption();
         byte[] cipherTextBytes = aesDecryption.base64ToBytes(base64CipherText);
-        SecretKey secretKey = aesDecryption.toSecretKey();
+        SecretKey secretKey = aesDecryption.getSecretKey();
         byte[] ivBytes = aesDecryption.hexToBytes(USER_PASSWORD_IV);
 
         String originalText = aesDecryption.decrypt(cipherTextBytes, secretKey, ivBytes);

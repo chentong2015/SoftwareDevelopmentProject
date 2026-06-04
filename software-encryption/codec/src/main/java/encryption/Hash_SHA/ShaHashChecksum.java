@@ -1,4 +1,4 @@
-package encryption.SHA_hashing;
+package encryption.Hash_SHA;
 
 import jakarta.xml.bind.DatatypeConverter;
 

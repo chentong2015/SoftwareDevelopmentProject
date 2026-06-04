@@ -1,0 +1,8 @@
+AES对称加密: 支持加密字母和数字以外的字符
+1. 解密加密后的密文，用于获取原文(连接DB的密码)
+2. 比较加密后的密文，验证原文的加密结果有效
+
+TODO. AES不同模式安全模式不同
+AES/ECB/PKCS5Padding (Electronic Codebook)   不适合生产环境 -> 安全问题
+AES/CBC/PKCS5Padding (Cipher Block Chaining) 次优方案, 不自带完整性校验
+AES/GCM/NoPadding (Galois/Counter Mode)      现代标准, 推荐的对称加密方式
