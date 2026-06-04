@@ -4,9 +4,9 @@ import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import java.nio.charset.StandardCharsets;
 
-// 对称加密: 解密加密后的字符串
 public class Aes256Decryption extends Aes256CBC {
 
+    // 解密加密后的字符串, 128位加密的不能用256的Key来解密
     private static String base64CipherText = "+Bw3I8UrIOHZqJTezt6qgQ==";
 
     public static void main(String[] args) {
