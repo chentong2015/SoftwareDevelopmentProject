@@ -2,25 +2,25 @@ TODO. Code Review 本质
 ChangeList提交一定要等待Reviewer的检查, 让子弹飞一会 !!
 ChangeList只应该修改与特定问题相关的代码, 避免和被的CL形成依赖
 
-6. Architect
-   Functionality for the whole project
-   Relation with others modules/projects
-   Usage changes ?
-
-5. Impacts: potential bug 验证的难点
-   Potential bugs, dependencies, adaptation
-
-4. Best solution 是否是最优解
-   Why it works, is there better way to do ?
-   What do we miss ?
-
-3. Tests Pass 验证基础条件
-   Test coverage, Unit test, IT test
+1. Right Answer/Fix for single feature
+   What's the problem for this fix ?
+   Why we need this fix ?
 
 2. Code Quality 代码规范
    Grammar, Code style, Clean code, Design patterns
    (IDEA Analyze Code, SonarLint, SonarQube)
 
-1. Right Answer/Fix for single feature
-   What's the problem for this fix ?
-   Why we need this fix ?
+3. Tests Pass 验证基础条件
+   Test coverage, Unit test, IT test
+
+4. Best solution 是否是最优解
+   Why it works, is there better way to do ?
+   What do we miss ?
+
+5. Impacts: potential bug 验证的难点
+   Potential bugs, dependencies, adaptation
+
+6. Architect
+   Functionality for the whole project
+   Relation with others modules/projects
+   Usage changes ?
