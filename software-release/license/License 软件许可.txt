@@ -1,0 +1,10 @@
+1. 所有Release软件必须使用license授权
+2. WhiteSource为软件生成特定.lic版权文件以授权使用
+3. 为软件生成COPYRIGHT权限声明版权所有
+
+基于有效签发文件才能启动APP
+> java -jar application.jar --license.file=./conf/valid.lic
+
+License签发文件使用场景
+- 用户在购买软件后获得license文件
+- 用户提交license文件用于解锁软件，每次使用时都需要检验是否在授权的有效期内
