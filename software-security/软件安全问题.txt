@@ -10,6 +10,4 @@ TODO. Code Secret 如何安全存储(不能出现在代码中)?
 - Dumpster Diver
 
 Severity Levels: Critical > High > Medium > Low
-
-Public Known Vulnerabilities: CVE
-https://cve.mitre.org/
+Public Known Vulnerabilities(CVE):  https://cve.mitre.org/
