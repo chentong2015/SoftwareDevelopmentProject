@@ -1,21 +1,22 @@
-package encryption.Symmetric_AES;
+package encryption.AES_Symmetric;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import java.nio.charset.StandardCharsets;
 
-public class Aes256Encryption extends Aes256CBC {
+public class AesCBC128Encryption extends AesCBC128 {
 
-    private static String password = "batch";
+    // private static String origianlStr = "batch"; // Password string
+    private static String origianlStr = "FMM4.12FIRCOSOFTFRANCEFMM1010NEVER111"; // License String
 
     public static void main(String[] args) {
-        Aes256Encryption aesEncryption = new Aes256Encryption();
-        byte[] ivBytes = aesEncryption.hexToBytes(USER_PASSWORD_IV);
+        AesCBC128Encryption aesEncryption = new AesCBC128Encryption();
+        byte[] ivBytes = aesEncryption.hexToBytes(USER_LICENSE_IV);
         SecretKey secretKey = aesEncryption.getSecretKey();
 
-        byte[] cipherTextBytes = aesEncryption.encrypt(password, secretKey, ivBytes);
+        byte[] cipherTextBytes = aesEncryption.encrypt(origianlStr, secretKey, ivBytes);
         String passwordEncrypted = aesEncryption.base64BytesToString(cipherTextBytes);
-        System.out.println("Clear text: " + password);
+        System.out.println("Clear text: " + origianlStr);
         System.out.println("Encrypted text: " + passwordEncrypted);
     }
 

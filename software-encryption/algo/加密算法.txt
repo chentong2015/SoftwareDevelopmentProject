@@ -2,7 +2,7 @@ TODO. Cryptography 密码学(强算法相关)
 Hashing Encryption => 哈希单向加密
 - SHA-1: 生成Maven Repo Checksum包校验值
 - SHA-256: 生成项目记录的Checksum验校值
-- MD5(存在安全问题)
+- MD5: 存在安全问题
   - Collision vulnerabilities 不同的Input可能加密出来相同的Hash
   - Rainbow Tables 测试大量的原始Input是否能够生成指定的Hash
 

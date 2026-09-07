@@ -1,4 +1,4 @@
-package encryption.Symmetric_AES;
+package encryption.AES_Symmetric;
 
 import jakarta.xml.bind.DatatypeConverter;
 
@@ -6,7 +6,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
-public abstract class Aes256CBC {
+public abstract class AesCBC256 {
 
     static final int KEY_LENGTH = 256;
     static final String ALGORITHM = "AES";

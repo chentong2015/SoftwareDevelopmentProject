@@ -1,4 +1,4 @@
-package encryption.Symmetric_AES;
+package encryption.AES_Symmetric;
 
 import jakarta.xml.bind.DatatypeConverter;
 
@@ -6,20 +6,24 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 import java.util.Base64;
 
-public abstract class Aes128Mode {
+public abstract class AesCBC128 {
 
     static final int KEY_LENGTH = 128;
     static final String ALGORITHM = "AES";
     static final String ALGO_MODE_PADDING = "AES/CBC/PKCS5PADDING";
 
+    // TODO. 用于密码加密的KEY
     // 128 bits = 32 Hex 十六进制 = 16 bytes
     static final String USER_PASSWORD_SECRET_KEY = "11535AF31C94F18C7EAAC2E320637E8F";
-
     //  IV length: must be 16 bytes long
     static final String USER_PASSWORD_IV = "CEEA74A4915C47FA619E50C7D2255464";
 
+    // TODO. 用于License文件信息加密的KEY
+    static final String USER_LICENSE_SECRET_KEY = "89EA5AD8AB3E193A67FABFE3500F7E2C";
+    static final String USER_LICENSE_IV = "5c3855939AC71E466E948DDC497437B1";
+
     SecretKey getSecretKey() {
-        byte[] secretKeyBytes = hexToBytes(USER_PASSWORD_SECRET_KEY);
+        byte[] secretKeyBytes = hexToBytes(USER_LICENSE_SECRET_KEY);
         return new SecretKeySpec(secretKeyBytes, 0, KEY_LENGTH / 8, ALGORITHM);
     }
 

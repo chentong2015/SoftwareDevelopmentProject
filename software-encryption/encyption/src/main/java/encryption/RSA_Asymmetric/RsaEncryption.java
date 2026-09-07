@@ -1,4 +1,4 @@
-package encryption.Asymmetric_RSA;
+package encryption.RSA_Asymmetric;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

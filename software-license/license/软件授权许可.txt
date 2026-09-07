@@ -1,0 +1,9 @@
+软件通常需要COPYRIGHT权限声明版权所有
+WhiteSource可为软件生成特定.lic版权文件以授权使用
+
+签发文件使用场景
+- 用户在购买软件后获得license文件
+- 用户提交license文件用于解锁软件，每次使用时都需要检验是否在授权有效期内
+
+基于有效签发文件启动APP
+> java -jar application.jar --license.file=./conf/valid.lic

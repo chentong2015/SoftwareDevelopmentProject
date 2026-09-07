@@ -1,58 +1,113 @@
 package license;
 
-import java.time.LocalDate;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class License {
 
-    private String productVersion;
-    private String key;
-    private String value;
-    private LocalDate date;
+    private static final String LICENSE_DATE_FORMAT = "yyyy/MM/dd-HH:mm:ss";
+    private static final String NEVER_AS_LIMIT_DATE = "NEVER";
 
-    public License() {
+    private String application;
+    private String licenceUser;
+    private String country;
+    private String projectName;
+    private String projectCode;
+    private int maxCon;
+    private int maxDb;
+    private String limitDate;
+
+    private String licenseValue;
+
+    // TODO. 验证license文件/数据是否有效: 验证信息值和加密后的结果
+    public boolean isValidLicense(String application, String version) {
+        if (!application.equals(this.application)) {
+            return false;
+        }
+        if (!version.startsWith(projectCode)) {
+            return false;
+        }
+        if (!NEVER_AS_LIMIT_DATE.equals(limitDate)) {
+            String currentTimeStamp = new SimpleDateFormat(LICENSE_DATE_FORMAT).format(Calendar.getInstance().getTime());
+            if (currentTimeStamp.compareTo(limitDate) > 0) {
+                return false;
+            }
+        }
+        String licenseBuilder = application + projectCode + licenceUser +
+                country + projectName + maxCon + maxDb + limitDate;
+        // String license = CipherUtils.encryptLicense(licenseBuilder);
+        return licenseBuilder.equals(licenseValue);
     }
 
-    public License(String productVersion, String key, String value, LocalDate date) {
-        this.productVersion = productVersion;
-        this.key = key;
-        this.value = value;
-        this.date = date;
+    public String getApplication() {
+        return application;
     }
 
-    public String getProductVersion() {
-        return productVersion;
+    public void setApplication(String application) {
+        this.application = application;
     }
 
-    public void setProductVersion(String productVersion) {
-        this.productVersion = productVersion;
+    public String getLicenceUser() {
+        return licenceUser;
     }
 
-    public String getKey() {
-        return key;
+    public void setLicenceUser(String licenceUser) {
+        this.licenceUser = licenceUser;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public String getCountry() {
+        return country;
     }
 
-    public String getValue() {
-        return value;
+    public void setCountry(String country) {
+        this.country = country;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public String getProjectName() {
+        return projectName;
     }
 
-    public LocalDate getDate() {
-        return date;
+    public void setProjectName(String projectName) {
+        this.projectName = projectName;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public String getProjectCode() {
+        return projectCode;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
+    public void setProjectCode(String projectCode) {
+        this.projectCode = projectCode;
+    }
+
+    public int getMaxCon() {
+        return maxCon;
+    }
+
+    public void setMaxCon(int maxCon) {
+        this.maxCon = maxCon;
+    }
+
+    public int getMaxDb() {
+        return maxDb;
+    }
+
+    public void setMaxDb(int maxDb) {
+        this.maxDb = maxDb;
+    }
+
+    public String getLimitDate() {
+        return limitDate;
+    }
+
+    public void setLimitDate(String limitDate) {
+        this.limitDate = limitDate;
+    }
+
+    public String getLicenseValue() {
+        return licenseValue;
+    }
+
+    public void setLicenseValue(String licenseValue) {
+        this.licenseValue = licenseValue;
     }
 }

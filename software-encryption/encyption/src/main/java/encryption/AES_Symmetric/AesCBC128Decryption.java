@@ -1,19 +1,23 @@
-package encryption.Symmetric_AES;
+package encryption.AES_Symmetric;
 
 import javax.crypto.*;
 import javax.crypto.spec.IvParameterSpec;
 import java.nio.charset.StandardCharsets;
 
-public class Aes256Decryption extends Aes256CBC {
+// 解密加密后的字符串, 128位加密的不能用256的Key来解密
+public class AesCBC128Decryption extends AesCBC128 {
 
-    // 解密加密后的字符串, 128位加密的不能用256的Key来解密
-    private static String base64CipherText = "+Bw3I8UrIOHZqJTezt6qgQ==";
+    // static String base64CipherText = "+ai7dQc5eHvziEgMsqr7mw=="; // 128 Password encrypted str
+    // static String base64CipherText = "+Bw3I8UrIOHZqJTezt6qgQ=="; // 256 Password encrypted str
+
+    // 128 License encrypted str
+    static String base64CipherText = "K6hmiIgQ6R+erjapkK8CHjmULhwufAxWYERLlXZUcBwqMjV6rUOIjzKfsNoOCkxt";
 
     public static void main(String[] args) {
-        Aes256Decryption aesDecryption = new Aes256Decryption();
+        AesCBC128Decryption aesDecryption = new AesCBC128Decryption();
         byte[] cipherTextBytes = aesDecryption.base64ToBytes(base64CipherText);
         SecretKey secretKey = aesDecryption.getSecretKey();
-        byte[] ivBytes = aesDecryption.hexToBytes(USER_PASSWORD_IV);
+        byte[] ivBytes = aesDecryption.hexToBytes(USER_LICENSE_IV);
 
         String originalText = aesDecryption.decrypt(cipherTextBytes, secretKey, ivBytes);
         System.out.println(originalText);

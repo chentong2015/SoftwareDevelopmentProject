@@ -1,11 +1,11 @@
-package encryption.Symmetric_AES;
+package encryption.AES_Symmetric;
 
 import javax.crypto.*;
 import javax.crypto.spec.GCMParameterSpec;
 import java.io.Serializable;
 import java.security.*;
 
-public class Aes128GCM {
+public class AesGCM128 {
 
     private static final String AES_GCM_NO_PADDING = "AES/GCM/NoPadding";
 
