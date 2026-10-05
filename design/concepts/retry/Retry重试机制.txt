@@ -1,0 +1,6 @@
+Retry mechanism 一种软件设计概念
+对某个操作或者行为执行多次尝试，排除由于客观因素造成的随机失败
+
+- Retry Connection 多次请求连接
+- Retry Cleanup 多次执行清除
+- Retry Progress 重试监听进度
